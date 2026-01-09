@@ -10,7 +10,7 @@ We saved your account from getting banned.
 Go download Velocity (discord.gg/velocityide) or another internal executor (level 7-8)
 ------------------------------------------------]]) return end
 if identifyexecutor and identifyexecutor():lower():find("xeno") then warn("NilWare: Xeno detected! DO NOT USE HIGH STRENGTH OR YOU WILL GET BANNED!") end
-local success, err = pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/randomplprendered/RIVALS_AntiBan/refs/heads/main/protect.lua?t="..tick()))("NilWare-Official", "http://discord.gg/9mv2DBkT8w") end)
+local success, err = pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/randomplprendered/RIVALS_AntiBan/refs/heads/main/protect.lua"))("NilWare-Official", "http://discord.gg/9mv2DBkT8w") end)
 if not success then game.Players.LocalPlayer:Kick("NilWare Security: Anti-Ban failed to execute! Report this to discord.gg/9mv2DBkT8w | DEBUG: "..tostring(err)) return end
 task.wait(1)
-task.spawn(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/randomplprendered/RivalsPro/refs/heads/main/latest.luau?t="..tick()))("NilWare-Official", "http://discord.gg/9mv2DBkT8w") end)
+task.spawn(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/randomplprendered/RivalsPro/refs/heads/main/latest.luau"))("NilWare-Official", "http://discord.gg/9mv2DBkT8w") end)
